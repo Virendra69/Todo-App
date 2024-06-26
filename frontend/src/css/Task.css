@@ -1,0 +1,56 @@
+.task-slide {
+  width: 97.5%;
+  height: 15%;
+
+  border: 2px solid #071952;
+  border-radius: 20px;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin: 3% 0%;
+
+  cursor: pointer;
+}
+
+.task-slide:hover {
+  border: 2px solid;
+  background-color: #2247c1;
+  color: white;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+
+  width: 55%;
+  max-height: 90%;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 120%;
+  font-family: "Nunito", sans-serif;
+}
+
+.priority {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+
+  width: 5%;
+  aspect-ratio: 1;
+
+  border-radius: 50%;
+  border: 1px solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

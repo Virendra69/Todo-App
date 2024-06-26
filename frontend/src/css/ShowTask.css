@@ -1,0 +1,115 @@
+.two-btns {
+  width: 90%;
+  height: 15%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.add-new-task {
+  cursor: pointer;
+
+  width: 45%;
+  height: 70%;
+
+  margin: 2% 0%;
+
+  font-size: 100%;
+
+  color: #071952;
+
+  border: 2px solid #7A7AFF;
+  border-radius: 30px;
+
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+
+  background-color: #7A7AFF;
+  color: white;
+}
+
+.add-new-task:hover {
+  border: 2px solid;
+  color: white;
+}
+
+.task-slide-box {
+  width: 90%;
+  height: 85%;
+
+  position: relative;
+
+  border-top: 2px solid #071952;
+  border-bottom: 2px solid #071952;
+
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.priority-legend {
+  width: 90%;
+  height: 10%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.low-priority,
+.medium-priority,
+.high-priority {
+  width: 33.33%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.low-priority-symbol {
+  width: 20%;
+  aspect-ratio: 1;
+
+  background-color: green;
+
+  border-radius: 50%;
+
+  margin: 0% 4%;
+  border: 1px solid;
+}
+
+.medium-priority-symbol {
+  width: 20%;
+  aspect-ratio: 1;
+
+  background-color: yellow;
+
+  border-radius: 50%;
+  margin: 0% 4%;
+
+  border: 1px solid;
+}
+
+.high-priority-symbol {
+  width: 20%;
+  aspect-ratio: 1;
+
+  background-color: red;
+
+  border-radius: 50%;
+  margin: 0% 4%;
+
+  border: 1px solid;
+}
+
+.low-priority-text,
+.medium-priority-text,
+.high-priority-text {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  margin: 0% 4%;
+}

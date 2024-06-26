@@ -1,0 +1,93 @@
+.landing-page-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  position: relative;
+}
+
+.todo-app-title {
+  font-size: 750%;
+  color: white;
+
+  width: 100%;
+  height: 75%;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  padding: 0% 9%;
+}
+
+.image-1 {
+  width: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%) rotate(-20deg);
+  transition: all 0.5s linear;
+  animation: move 1s linear;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-50%) rotate(-20deg);
+  }
+  50% {
+    transform: translateY(-50%) rotate(20deg);
+  }
+  100% {
+    transform: translateY(-50%) rotate(-20deg);
+  }
+}
+
+.image-1:hover {
+  transform: translateY(-50%) rotate(20deg);
+}
+
+.continue {
+  width: 30%;
+  height: 10%;
+
+  border: 1px solid #7a7aff;
+  border-radius: 50px;
+
+  font-size: 200%;
+
+  background-color: #7a7aff;
+  color: white;
+
+  cursor: pointer;
+
+  animation: resize 1.5s infinite;
+
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.continue:hover {
+  border: 2px solid;
+}
+
+@keyframes resize {
+  0% {
+    width: 30%;
+    height: 10%;
+  }
+  50% {
+    width: 32.5%;
+    height: 12.5%;
+  }
+  100% {
+    width: 30%;
+    height: 10%;
+  }
+}

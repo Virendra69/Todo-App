@@ -1,0 +1,155 @@
+::placeholder {
+  color: white;
+}
+
+.register-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-box {
+  width: 45%;
+  aspect-ratio: 1;
+
+  border: 1px solid;
+  border-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.25s;
+
+  background-color: #37b7c3;
+}
+
+.register-heading {
+  font-size: 350%;
+  font-family: "Nunito", sans-serif;
+
+  width: 90%;
+
+  text-align: center;
+}
+
+.register-form {
+  width: 90%;
+  height: 80%;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-username,
+.register-firstname,
+.register-lastname,
+.register-email {
+  width: 80%;
+  height: 15%;
+
+  padding: 0% 5%;
+
+  border: 1px solid #2247c1;
+  border-radius: 40px;
+
+  font-size: 100%;
+
+  transition: all 0.25s;
+
+  margin: 2% 0%;
+
+  background-color: #2247c1;
+  color: white;
+}
+
+.register-username:hover,
+.register-firstname:hover,
+.register-lastname:hover,
+.register-email:hover {
+  width: 85%;
+  height: 17.5%;
+  padding: 0% 10%;
+}
+
+.register-password-container,
+.register-confirm-password-container {
+  width: 80%;
+  height: 15%;
+
+  position: relative;
+
+  transition: all 0.25s;
+
+  margin: 2% 0%;
+}
+
+.register-password-container:hover,
+.register-confirm-password-container:hover {
+  width: 85%;
+  height: 17.5%;
+}
+
+.register-password,
+.register-confirm-password {
+  width: 100%;
+  height: 100%;
+
+  border: 1px solid #2247c1;
+  border-radius: 40px;
+
+  padding: 0% 5%;
+
+  font-size: 100%;
+
+  transition: all 0.25s;
+
+  background-color: #2247c1;
+  color: white;
+}
+
+.register-password:hover,
+.register-confirm-password:hover {
+  padding: 0% 10%;
+}
+
+.register-show-password,
+.register-confirm-show-password {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+
+  cursor: pointer;
+}
+
+.register-submit-btn {
+  width: 80%;
+  height: 15%;
+
+  border: 1px solid #7a7aff;
+  border-radius: 40px;
+
+  font-size: 100%;
+
+  margin: 2% 0%;
+
+  transition: all 0.25s;
+
+  background-color: #7a7aff;
+  color: white;
+}
+
+.register-submit-btn:hover {
+  cursor: pointer;
+  font-size: 125%;
+  width: 85%;
+  height: 17.5%;
+}
